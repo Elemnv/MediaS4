@@ -31,7 +31,7 @@ insert into users (name, login,age)
  drop column music;
 
 select * from users
-    where age>> 15;
+    where age> 15;
 
 select name,login from users
     where name = 'elel';
